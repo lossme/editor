@@ -1,0 +1,4 @@
+[
+    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+    { "keys": ["alt+b"], "command": "open_in_browser" }
+]
