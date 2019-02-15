@@ -8,7 +8,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'Yggdroot/indentLine'
+"Plugin 'Yggdroot/indentLine'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tell-k/vim-autopep8'
 Plugin 'Lokaltog/vim-powerline'
@@ -31,6 +31,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+set pastetoggle=<F9>                "粘贴前按F9 防止缩进混乱
 
 set nocompatible                    "去掉vi的一致性
 set t_Co=256                        "设置终端为256色
