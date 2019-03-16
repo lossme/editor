@@ -19,3 +19,4 @@ import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe0
 - Python PEP8 Autoformat
 - SublimeREPL
 - Terminal
+- SideBarEnhancements
